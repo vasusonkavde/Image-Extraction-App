@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Extractor App</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="index.css">
+
+</head>
+
+<body>
+
+    <h2>Image Extractor App</h2>
+
+    <form action="">
+        <input type="text" id="search-input" placeholder="Search images">
+        <button id="voice-btn" onclick="voice()"> <i class="bi bi-mic-fill"></i> </button>
+        <button id="search-button" >Search</button>
+    </form>
+
+    <div class="search-results">
+        <div class="search-result">
+            <img src="https://images.unsplash.com/photo-1699803895016-72cabdd79107?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                alt="Beach">
+            <a href="https://unsplash.com/photos/an-aerial-view-of-a-beach-with-blue-water-OqTmu0Fu6f8"
+                target="_blank">Beach with blue water</a>
+        </div>
+
+        <div class="search-result">
+            <img src="https://images.unsplash.com/photo-1699393393003-e9fbf1596d88?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                alt="Beach">
+            <a href="https://unsplash.com/photos/an-aerial-view-of-a-beach-with-blue-water-OqTmu0Fu6f8"
+                target="_blank">Touching a tree in the misty Fanal forest</a>
+        </div>
+
+        <div class="search-result">
+            <img src="https://media.istockphoto.com/id/1475560892/photo/the-milwaukee-river-and-milwaukee-skyline.webp?b=1&s=170667a&w=0&k=20&c=FKW_U-ehjpTYOUk9yHDM3o4mNht8cK5YZ7oBTrQXAog="
+                alt="Beach">
+            <a href="https://unsplash.com/photos/an-aerial-view-of-a-beach-with-blue-water-OqTmu0Fu6f8"
+                target="_blank">The Milwaukee skyline sits behind the view of the Milwaukee River</a>
+        </div>
+    </div>
+
+    <button id="show-more-button">Show more</button>
+
+    <!-- <div id="cont"> 
+        <h2>{{answer}}</h2> 
+        <pyscript>
+            input_text = "who is the prime minister of india"
+            pyscript.write(Bard().get_answer(input_text)['content'])
+        </pyscript>
+    </div>
+
+
+    chatbot 
+    <div class="chat-window">
+        <div class="title">
+            <h2>ChatBot</h2>
+        </div>
+        <div class="chat-messages"></div>
+        <form id="chat-form">
+            <input type="text" id="chat-input" autocomplete="off" placeholder="Type your message">
+        </form>
+    </div> -->
+
+
+    <script src="index.js"></script>
+</body>
+
+</html>
